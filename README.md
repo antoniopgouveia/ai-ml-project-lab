@@ -19,7 +19,7 @@ This repository is a living collection of end-to-end ML projects. Each one is fr
 This portfolio covers a progression from foundational machine learning to modern deep learning and LLM engineering:
 
 Regression & Classification
-Traditional supervised learning using linear/logistic regression, decision trees, and ensemble methods (XGBoost, Random Forest). Applied to tabular data problems in business intelligence, clinical trial outcome prediction, and sports analytics — with model interpretability via SHAP.
+Traditional supervised learning using linear/logistic regression, decision trees, and ensemble methods (XGBoost, Random Forest). 
 
 Artificial Neural Networks (ANNs)
 Feedforward neural networks for structured data problems — from predictive modeling to feature representation learning. Built with PyTorch, with experiment tracking via Weights & Biases and MLflow.
@@ -35,62 +35,6 @@ Text classification, named entity recognition, relation extraction, and biomedic
 
 Retrieval-Augmented Generation (RAG)
 LLM engineering with retrieval pipelines — embedding-based search, vector stores (ChromaDB, FAISS), generation with citations, and evaluation frameworks (RAGAS, ROUGE, BERTScore). Deployed as interactive applications via Streamlit and Gradio.
-
-🛠️ Tech Stack
-Category	Tools & Frameworks
-Languages	Python, SQL
-Classical ML	scikit-learn, XGBoost, LightGBM
-Deep Learning	PyTorch, torchvision
-NLP / Transformers	HuggingFace Transformers, LangChain, sentence-transformers
-RAG	ChromaDB, FAISS, RAGAS
-Data	pandas, NumPy, Polars
-Visualization	Matplotlib, Seaborn, Plotly, SHAP, Grad-CAM
-Deployment	Streamlit, Gradio, FastAPI, Docker, HuggingFace Spaces
-Experiment Tracking	Weights & Biases, MLflow
-Cloud / Infra	Microsoft Azure, GitHub Actions CI/CD
-Dev Tools	VS Code, Google Colab, Jupyter, Git
-
-📁 Repository Structure
-Each project is self-contained in its own folder with a consistent layout:
-
-text
-ai-ml-project-lab/
-├── README.md                              ← You are here
-├── LICENSE                                ← MIT License
-├── .gitignore
-│
-├── chest-xray-classifier/
-│   ├── README.md                          ← Problem, approach, results, how to run
-│   ├── notebooks/
-│   │   ├── 01_data_exploration.ipynb
-│   │   ├── 02_model_training.ipynb
-│   │   └── 03_evaluation_gradcam.ipynb
-│   ├── src/
-│   │   ├── __init__.py
-│   │   ├── dataset.py
-│   │   ├── model.py
-│   │   └── gradcam.py
-│   ├── app/
-│   │   └── gradio_app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── clinical-note-summarizer/
-│   ├── README.md
-│   ├── notebooks/
-│   ├── src/
-│   ├── requirements.txt
-│   └── ...
-│
-└── ... (future projects)
-
-Per-Project Standards
-Element	Purpose
-README.md	Problem statement, approach, results, how to run, demo link
-notebooks/	Numbered EDA → modeling → evaluation workflow
-src/	Modular, importable Python code (not just notebooks)
-requirements.txt	Pinned dependencies for full reproducibility
-app/	Deployment code (Streamlit / Gradio / FastAPI) where applicable
 
 🔬 Approach & Philosophy
 Every project in this repository follows the same principles:

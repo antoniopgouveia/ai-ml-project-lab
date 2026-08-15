@@ -83,6 +83,7 @@ ai-ml-project-lab/
 │   └── ...
 │
 └── ... (future projects)
+
 Per-Project Standards
 Element	Purpose
 README.md	Problem statement, approach, results, how to run, demo link
@@ -90,6 +91,7 @@ notebooks/	Numbered EDA → modeling → evaluation workflow
 src/	Modular, importable Python code (not just notebooks)
 requirements.txt	Pinned dependencies for full reproducibility
 app/	Deployment code (Streamlit / Gradio / FastAPI) where applicable
+
 🔬 Approach & Philosophy
 Every project in this repository follows the same principles:
 
@@ -104,10 +106,10 @@ Deployment-ready — Where feasible, projects include a live demo deployed to Hu
 Documented decisions — Notebooks explain why a method was chosen, not just what was used
 
 📫 Connect
-LinkedIn: linkedin.com/in/YOUR_LINKEDIN
+LinkedIn: linkedin.com/in/antonio-gouveia
 
-GitHub: github.com/YOUR_GITHUB
+GitHub: github.com/antoniopgouveia
 
-HuggingFace: huggingface.co/YOUR_HF_USERNAME
+HuggingFace: huggingface.co/antoniopagouveia
 
 Email: antoniopagouveia@gmail.com

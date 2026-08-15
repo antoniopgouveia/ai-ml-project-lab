@@ -3,6 +3,7 @@
 Applied AI/ML portfolio by Antonio Gouveia — building solutions to real-world problems within business intelligence and biotechnology using regression, classification, and deep learning architectures.
 
 👋 About
+
 I'm an AI/ML and Business Intelligence professional based in Porto, Portugal, passionate about applying machine learning to problems where data meets decision-making. My work sits at the intersection of business intelligence and biotechnology — areas where well-designed AI systems can create measurable real-world impact.
 
 This repository is a living collection of end-to-end ML projects. Each one is framed around a genuine domain question, built with reproducible code, and evaluated against meaningful baselines — not just notebooks that run once and are forgotten.

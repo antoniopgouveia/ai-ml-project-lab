@@ -158,11 +158,9 @@ Projects are organized around the problem they solve rather than the machine lea
 AI-ML-Project-Lab/
 │
 ├── projects/
-│   ├── regression-classification/
+│   ├── regression-classification-clustering/
 │   ├── neural-networks/
-│   ├── medical-imaging/
-│   ├── biomedical-nlp/
-│   └── rag/
+│   └── nlp-llm-rag/
 │
 ├── README.md
 └── requirements.txt

@@ -1,0 +1,36 @@
+# ==============================================================================
+# FOUNDATIONAL & TABULAR MACHINE LEARNING (Regression, Classification, Clustering)
+# ==============================================================================
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+xgboost>=1.7.0
+
+# ==============================================================================
+# DEEP LEARNING ARCHITECTURES (Neural Networks, CNNs, RNNs)
+# ==============================================================================
+torch>=2.1.0        # Primary framework for custom deep learning / PyTorch
+torchvision>=0.16.0 # Useful for CNN image processing 
+
+# ==============================================================================
+# NATURAL LANGUAGE PROCESSING & LLMs (NLP)
+# ==============================================================================
+transformers>=4.35.0  # Hugging Face ecosystem for loading LLMs/embeddings
+tokenizers>=0.14.0    # Fast text tokenization
+nltk>=3.8.0           # Classic text preprocessing (cleaning, stemming)
+spacy>=3.7.0          # Advanced linguistic features and named entity recognition
+
+# ==============================================================================
+# RAG ARCHITECTURES & VECTOR DATABASES
+# ==============================================================================
+langchain>=0.1.0      # Framework for orchestrating RAG pipelines & LLM chains
+openai>=1.3.0         # Official API client for GPT models
+chromadb>=0.4.0       # Lightweight, local vector database for storing embeddings
+pypdf>=3.17.0         # PDF parsing to feed internal documents into your RAG
+
+# ==============================================================================
+# DATA VISUALIZATION & BUSINESS INTELLIGENCE
+# ==============================================================================
+matplotlib>=3.8.0
+seaborn>=0.13.0

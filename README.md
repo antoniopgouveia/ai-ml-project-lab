@@ -1,6 +1,6 @@
 # 🤖 AI/ML Project Lab
 
-**Applied AI/ML portfolio by Antonio Gouveia** — building solutions to real-world problems within **business intelligence and biotechnology** using regression, classification, deep learning, and modern LLM architectures.
+**Applied AI/ML portfolio by Antonio Gouveia** — building solutions to real-world problems within **business intelligence and biotechnology** using regression, classification, deep learning and modern LLM architectures.
 
 ---
 
@@ -10,7 +10,7 @@ I'm an **AI/ML and Business Intelligence professional based in Porto, Portugal**
 
 My work sits at the intersection of **business intelligence and biotechnology** — areas where well-designed AI systems can create measurable real-world impact.
 
-This repository is a living collection of **end-to-end ML projects**. Each project is framed around a genuine domain question, built with reproducible code, and evaluated against meaningful baselines — not just notebooks that run once and are forgotten.
+This repository is a living collection of **end-to-end ML projects**. Each project is framed around a genuine domain question, built with reproducible code and evaluated against meaningful baselines — not just notebooks that run once and are forgotten.
 
 * 🔭 **Currently working on:** Chest X-Ray Disease Classifier and Clinical Note Summarization System
 * 🌱 **Exploring:** Medical imaging, biomedical NLP, clinical AI, and retrieval-augmented generation

@@ -1,4 +1,4 @@
-# 🤖 AI/ML Project Lab
+# AI/ML Project Lab
 
 **Applied AI/ML portfolio by Antonio Gouveia** — building solutions to real-world problems within **business intelligence and biotechnology** using regression, classification, deep learning and modern LLM architectures.
 
@@ -13,8 +13,8 @@ My work sits at the intersection of **business intelligence and biotechnology** 
 This repository is a living collection of **end-to-end ML projects**. Each project is framed around a genuine domain question, built with reproducible code and evaluated against meaningful baselines — not just notebooks that run once and are forgotten.
 
 * 🔭 **Currently working on:** Chest X-Ray Disease Classifier and Clinical Note Summarization System
-* 🌱 **Exploring:** Medical imaging, biomedical NLP, clinical AI, and retrieval-augmented generation
-* 💬 **Ask me about:** NLP, neural networks, business intelligence, Python, and Azure
+* 🌱 **Exploring:** Medical imaging, biomedical NLP, clinical AI and retrieval-augmented generation
+* 💬 **Ask me about:** NLP, neural networks, business intelligence, Python and Azure
 * 📫 **Contact:** [LinkedIn](https://linkedin.com/in/antonio-gouveia) · [GitHub](https://github.com/antoniopgouveia) · [Email](mailto:antoniopagouveia@gmail.com)
 
 ---
@@ -132,7 +132,7 @@ Models are compared against meaningful baselines using appropriate metrics, incl
 * Accuracy
 * F1 score
 * ROUGE
-* AUROC
+* AUC-ROC
 * Latency
 
 Where relevant, projects also include **failure analysis** to understand where and why models perform poorly.

@@ -1,0 +1,4 @@
+name,mode,loss,optimized,validation_macro_auc-roc,best_epoch,epochs_completed,total_train_seconds,mean_epoch_seconds,peak_memory_gb,trainable_parameters,total_parameters,comparable_auc_roc_target,time_to_comparable_auc_roc_seconds
+full_ft_fp32,full,weighted_bce,False,0.7367490910317136,3,7,2439.873329999973,348.5011478428413,,6968206,6968206,0.7317490910317136,1008.1644559999695
+partial_ft_fp32,partial,weighted_bce,False,0.7052669396302073,5,9,1361.7895636000321,151.24245931111767,,2174478,6968206,0.7317490910317136,
+partial_ft_optm,partial,weighted_bce,True,0.7052669396302073,5,9,1317.6079989999998,146.33899749999142,,2174478,6968206,0.7317490910317136,

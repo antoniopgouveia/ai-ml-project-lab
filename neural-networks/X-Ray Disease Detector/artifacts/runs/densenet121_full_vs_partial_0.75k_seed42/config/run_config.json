@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "dataset": "arudaev/chest-xray-14-320",
+  "train_size": 750,
+  "validation_size": 150,
+  "test_size": 150,
+  "image_size": 160,
+  "batch_size": 32,
+  "max_epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "lr_reduction_factor": 0.5,
+  "lr_reduction_patience": 1,
+  "early_stopping_patience": 4,
+  "min_learning_rate": 1e-06,
+  "loss": "weighted_bce",
+  "quality_tolerance": 0.005,
+  "device": "cpu",
+  "use_amp": false,
+  "use_channels_last": false,
+  "benchmark_preset": "quick",
+  "benchmark_settings": {
+    "warmup_batches": 2,
+    "timing_batches": 4,
+    "gradcam_warmup": 1,
+    "gradcam_samples": 3
+  }
+}

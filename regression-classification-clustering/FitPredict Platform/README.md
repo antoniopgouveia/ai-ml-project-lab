@@ -6,6 +6,8 @@ This project provides a guided machine-learning workflow for selecting, optimizi
 
 The platform automates several decisions that are often handled manually. It infers whether the selected target represents a regression or classification problem, checks for possible time-series structure, chooses an appropriate data-splitting and validation strategy, removes selected non-crucial or potentially leaking columns and prepares numeric, temporal and categorical features for different estimator families.
 
+Models are compared and selected based on the strongest initial cross-validation score. The winning model is used for hyperparameter optimization and final evaluation, with metrics and diagnostics reported to help assess its performance. By comparing models and configurations for each dataset, the platform helps identify a suitable model type and configuration for further review.
+
 For regression projects, the framework compares:
 
 - Multiple linear regression

@@ -115,7 +115,7 @@ The notebook is a branching classical machine-learning workflow. After dataset s
 
 1. **Ordinal encoding:** median imputation and optional scaling for numeric columns; most-frequent imputation and ordinal encoding for categorical columns. Used by tree-based and Naive Bayes models.
 2. **One-hot encoding:** numeric imputation/scaling plus most-frequent categorical imputation and sparse one-hot encoding. Used by linear models, polynomial regression, SVR, logistic regression, SVM, KNN and XGBoost.
-3. **NLP:** : Uses TF-IDF to convert the selected text column into numeric features. This route is specifically for bag-of-words text-classification projects.
+3. **NLP:** Uses TF-IDF to convert the selected text column into numeric features. This route is specifically for bag-of-words text-classification projects.
 
 
 ```mermaid
@@ -131,7 +131,6 @@ flowchart TD
     G1 --> H[Baseline cross-validation]
     G2 --> H
     G3 --> H
-    G4 --> H
     H --> I[Select and tune model]
     I --> J[Compare default and optimized CV scores]
     J --> K[Predict held-out test rows]
@@ -255,19 +254,19 @@ Results were established through six experiments: two regression projects, two c
 ### Regression experiments
 
 | ID | Dataset | Size | Structure | Selected model | CV MAE | CV RMSE | CV R² | Test MAE | Test RMSE | Test R² |
-|---|---|---|---|---:|---:|---|---|---:|---:|---:|---:|---:|---:|---:|
-| R1 | electricsheepafrica/africa-synth-education-waec-results-nigeria | 500K | Cross-sectional | XGBoost | 5.25 | 9.09 | 0.66 | 5.26 | 9.12 | 0.66 | 
-| R2 | Einae/Zinc_standard_agent | 2M | Cross-sectional | Multiple Linear Regression | 0.22 | 0.38 | 0.95 | 0.22 | 0.37 | 0.95 |
-| R3 | opensporks/stocks | 3.34M | Time-series | Decision Tree | 1.67 | 2.50 | 0.67 | 0.063 | 0.31 | 0.997 |
+|---|---|---:|---|---|---:|---:|---:|---:|---:|---:|
+| R1 | `electricsheepafrica/africa-synth-education-waec-results-nigeria` | 500K | Cross-sectional | XGBoost | 5.25 | 9.09 | 0.66 | 5.26 | 9.12 | 0.66 |
+| R2 | `Einae/Zinc_standard_agent` | 2M | Cross-sectional | Multiple Linear Regression | 0.22 | 0.38 | 0.95 | 0.22 | 0.37 | 0.95 |
+| R3 | `opensporks/stocks` | 3.34M | Time-series | Decision Tree | 1.67 | 2.50 | 0.67 | 0.063 | 0.31 | 0.997 |
 
 
 ### Classification experiments
 
 | ID | Dataset | Size | Structure | Selected model | CV Macro F1 | CV Balanced Accuracy | Test Macro F1 | Test Balanced Accuracy | Test Accuracy | Test Precision | Test Recall |
-|---|---|---|---|---:|---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| C1 | mstz/covertype | 581K | Cross-sectional | Random Forest | 0.88 | 0.85 | 0.92 | 0.89 | 0.95 | 0.94 | 0.89 | 
-| C2 | DBbun/1M_Insomnia_Nature_SR_2018_v1.0 | 1.11M | Cross-sectional | Logistic Regression | 0.77 | 0.76 | 0.77 | 0.77 | 0.79 | 0.78 | 0.77 | 
-| C3 | Yelp/yelp_review_full | 650K | Bag-of-words NLP | Logistic Regression | 0.58 | 0.59 | 0.59 | 0.59 | 0.59 | 0.59 | 0.59 | 
+|---|---|---:|---|---|---:|---:|---:|---:|---:|---:|---:|
+| C1 | `mstz/covertype` | 581K | Cross-sectional | Random Forest | 0.88 | 0.85 | 0.92 | 0.89 | 0.95 | 0.94 | 0.89 |
+| C2 | `DBbun/1M_Insomnia_Nature_SR_2018_v1.0` | 1.11M | Cross-sectional | Logistic Regression | 0.77 | 0.76 | 0.77 | 0.77 | 0.79 | 0.78 | 0.77 |
+| C3 | `Yelp/yelp_review_full` | 650K | Bag-of-words NLP | Logistic Regression | 0.58 | 0.59 | 0.59 | 0.59 | 0.59 | 0.59 | 0.59 |
 
 
 ## Limitations and Next Steps

@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "dataset": "DBbun/1M_Insomnia_Nature_SR_2018_v1.0",
+  "dataset_configuration": "",
+  "split": "train",
+  "regression_analysis": false,
+  "classification_analysis": true,
+  "project_type": "Classification",
+  "natural_language_processing": false,
+  "time_series": false,
+  "cross_sectional": true,
+  "shuffle": true,
+  "dataset_shape": [
+    1110000,
+    35
+  ],
+  "test_size": 0.2
+}

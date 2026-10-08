@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "dataset": "mstz/covertype",
+  "dataset_configuration": "",
+  "split": "train",
+  "regression_analysis": false,
+  "classification_analysis": true,
+  "project_type": "Classification",
+  "natural_language_processing": false,
+  "time_series": false,
+  "cross_sectional": true,
+  "shuffle": true,
+  "dataset_shape": [
+    581012,
+    55
+  ],
+  "test_size": 0.2
+}

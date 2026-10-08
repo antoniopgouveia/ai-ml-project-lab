@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "dataset": "opensporks/stocks",
+  "dataset_configuration": "",
+  "split": "train",
+  "regression_analysis": true,
+  "classification_analysis": false,
+  "project_type": "Regression",
+  "natural_language_processing": false,
+  "time_series": true,
+  "cross_sectional": false,
+  "shuffle": false,
+  "dataset_shape": [
+    552464,
+    7
+  ],
+  "test_size": 0.2
+}

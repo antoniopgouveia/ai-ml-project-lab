@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "dataset": "Yelp/yelp_review_full",
+  "dataset_configuration": "",
+  "split": "train",
+  "regression_analysis": false,
+  "classification_analysis": true,
+  "project_type": "Classification",
+  "natural_language_processing": true,
+  "time_series": false,
+  "cross_sectional": true,
+  "shuffle": true,
+  "dataset_shape": [
+    650000,
+    2
+  ],
+  "test_size": 0.2
+}

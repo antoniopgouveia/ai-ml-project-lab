@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "dataset": "Einae/Zinc_standard_agent",
+  "dataset_configuration": "",
+  "split": "train",
+  "regression_analysis": true,
+  "classification_analysis": false,
+  "project_type": "Regression",
+  "natural_language_processing": false,
+  "time_series": false,
+  "cross_sectional": true,
+  "shuffle": true,
+  "dataset_shape": [
+    2000000,
+    9
+  ],
+  "test_size": 0.2
+}
